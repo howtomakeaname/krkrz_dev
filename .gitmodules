@@ -196,3 +196,6 @@
 [submodule "src/plugins/win32/windowExProgress"]
 	path = src/plugins/win32/windowExProgress
 	url = ../../wtnbgo/windowExProgress.git
+[submodule "src/plugins/win32/tp_stub"]
+	path = src/plugins/win32/tp_stub
+	url = ../../wtnbgo/tp_stub.git
