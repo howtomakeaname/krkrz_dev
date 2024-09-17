@@ -1,0 +1,29 @@
+{
+  "name": "krkrz",
+  "version": "0.0.1",
+  "dependencies": [
+    "egl-registry",
+    "opengl-registry",
+    "glm",
+    "libogg",
+    "libpng",
+    "libvorbis",
+    "oniguruma",
+    "opus",
+    "opusfile",
+    "picojson",
+    "libjpeg-turbo",
+    "zlib",
+    "libvpx",
+    "libwebm",
+    "jxrlib",
+    {
+      "name": "freetype",
+      "features": [
+        "zlib",
+        "png",
+        "bzip2"
+      ]
+    }
+  ]
+}
