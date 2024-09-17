@@ -75,127 +75,127 @@
 	url = ../krkrz.git
 [submodule "src/plugins/win32/KAGParserEx"]
 	path = src/plugins/win32/KAGParserEx
-	url = ../../wtnbgo/KAGParserEx.git
+	url = ../../wamsoft/KAGParserEx.git
 [submodule "src/plugins/win32/addFont"]
 	path = src/plugins/win32/addFont
-	url = ../../wtnbgo/addFont.git
+	url = ../../wamsoft/addFont.git
 [submodule "src/plugins/win32/binaryStream"]
 	path = src/plugins/win32/binaryStream
-	url = ../../wtnbgo/binaryStream.git
+	url = ../../wamsoft/binaryStream.git
 [submodule "src/plugins/win32/csvParser"]
 	path = src/plugins/win32/csvParser
-	url = ../../wtnbgo/csvParser.git
+	url = ../../wamsoft/csvParser.git
 [submodule "src/plugins/win32/fpslimit"]
 	path = src/plugins/win32/fpslimit
-	url = ../../wtnbgo/fpslimit.git
+	url = ../../wamsoft/fpslimit.git
 [submodule "src/plugins/win32/fstat"]
 	path = src/plugins/win32/fstat
-	url = ../../wtnbgo/fstat.git
+	url = ../../wamsoft/fstat.git
 [submodule "src/plugins/win32/getSample"]
 	path = src/plugins/win32/getSample
-	url = ../../wtnbgo/getSample.git
+	url = ../../wamsoft/getSample.git
 [submodule "src/plugins/win32/httprequest"]
 	path = src/plugins/win32/httprequest
-	url = ../../wtnbgo/httprequest.git
+	url = ../../wamsoft/httprequest.git
 [submodule "src/plugins/win32/httpserv"]
 	path = src/plugins/win32/httpserv
-	url = ../../wtnbgo/httpserv.git
+	url = ../../wamsoft/httpserv.git
 [submodule "src/plugins/win32/json"]
 	path = src/plugins/win32/json
-	url = ../../wtnbgo/json.git
+	url = ../../wamsoft/json.git
 [submodule "src/plugins/win32/layerEx"]
 	path = src/plugins/win32/layerEx
-	url = ../../wtnbgo/layerEx.git
+	url = ../../wamsoft/layerEx.git
 [submodule "src/plugins/win32/layerExAreaAverage"]
 	path = src/plugins/win32/layerExAreaAverage
-	url = ../../wtnbgo/layerExAreaAverage.git
+	url = ../../wamsoft/layerExAreaAverage.git
 [submodule "src/plugins/win32/layerExBTOA"]
 	path = src/plugins/win32/layerExBTOA
-	url = ../../wtnbgo/layerExBTOA.git
+	url = ../../wamsoft/layerExBTOA.git
 [submodule "src/plugins/win32/layerExDraw"]
 	path = src/plugins/win32/layerExDraw
-	url = ../../wtnbgo/layerExDraw.git
+	url = ../../wamsoft/layerExDraw.git
 [submodule "src/plugins/win32/layerExImage"]
 	path = src/plugins/win32/layerExImage
-	url = ../../wtnbgo/layerExImage.git
+	url = ../../wamsoft/layerExImage.git
 [submodule "src/plugins/win32/layerExLongExposure"]
 	path = src/plugins/win32/layerExLongExposure
-	url = ../../wtnbgo/layerExLongExposure.git
+	url = ../../wamsoft/layerExLongExposure.git
 [submodule "src/plugins/win32/layerExRaster"]
 	path = src/plugins/win32/layerExRaster
-	url = ../../wtnbgo/layerExRaster.git
+	url = ../../wamsoft/layerExRaster.git
 [submodule "src/plugins/win32/layerExSave"]
 	path = src/plugins/win32/layerExSave
-	url = ../../wtnbgo/layerExSave.git
+	url = ../../wamsoft/layerExSave.git
 [submodule "src/plugins/win32/lineParser"]
 	path = src/plugins/win32/lineParser
-	url = ../../wtnbgo/lineParser.git
+	url = ../../wamsoft/lineParser.git
 [submodule "src/plugins/win32/memfile"]
 	path = src/plugins/win32/memfile
-	url = ../../wtnbgo/memfile.git
+	url = ../../wamsoft/memfile.git
 [submodule "src/plugins/win32/messenger"]
 	path = src/plugins/win32/messenger
-	url = ../../wtnbgo/messenger.git
+	url = ../../wamsoft/messenger.git
 [submodule "src/plugins/win32/minizip"]
 	path = src/plugins/win32/minizip
-	url = ../../wtnbgo/minizip.git
+	url = ../../wamsoft/minizip.git
 [submodule "src/plugins/win32/msgreceiver"]
 	path = src/plugins/win32/msgreceiver
-	url = ../../wtnbgo/msgreceiver.git
+	url = ../../wamsoft/msgreceiver.git
 [submodule "src/plugins/win32/ncbind"]
 	path = src/plugins/win32/ncbind
-	url = ../../wtnbgo/ncbind.git
+	url = ../../wamsoft/ncbind.git
 [submodule "src/plugins/win32/process"]
 	path = src/plugins/win32/process
-	url = ../../wtnbgo/process.git
+	url = ../../wamsoft/process.git
 [submodule "src/plugins/win32/psdfile"]
 	path = src/plugins/win32/psdfile
-	url = ../../wtnbgo/psdfile.git
+	url = ../../wamsoft/psdfile.git
 [submodule "src/plugins/win32/resourceRW"]
 	path = src/plugins/win32/resourceRW
-	url = ../../wtnbgo/resourceRW.git
+	url = ../../wamsoft/resourceRW.git
 [submodule "src/plugins/win32/saveStruct"]
 	path = src/plugins/win32/saveStruct
-	url = ../../wtnbgo/saveStruct.git
+	url = ../../wamsoft/saveStruct.git
 [submodule "src/plugins/win32/scriptsEx"]
 	path = src/plugins/win32/scriptsEx
-	url = ../../wtnbgo/scriptsEx.git
+	url = ../../wamsoft/scriptsEx.git
 [submodule "src/plugins/win32/shellExecute"]
 	path = src/plugins/win32/shellExecute
-	url = ../../wtnbgo/shellExecute.git
+	url = ../../wamsoft/shellExecute.git
 [submodule "src/plugins/win32/shrinkCopy"]
 	path = src/plugins/win32/shrinkCopy
-	url = ../../wtnbgo/shrinkCopy.git
+	url = ../../wamsoft/shrinkCopy.git
 [submodule "src/plugins/win32/sigcheck"]
 	path = src/plugins/win32/sigcheck
-	url = ../../wtnbgo/sigcheck.git
+	url = ../../wamsoft/sigcheck.git
 [submodule "src/plugins/win32/stdio"]
 	path = src/plugins/win32/stdio
-	url = ../../wtnbgo/stdio.git
+	url = ../../wamsoft/stdio.git
 [submodule "src/plugins/win32/steam"]
 	path = src/plugins/win32/steam
-	url = ../../wtnbgo/steam.git
+	url = ../../wamsoft/steam.git
 [submodule "src/plugins/win32/systemEx"]
 	path = src/plugins/win32/systemEx
-	url = ../../wtnbgo/systemEx.git
+	url = ../../wamsoft/systemEx.git
 [submodule "src/plugins/win32/tftSave"]
 	path = src/plugins/win32/tftSave
-	url = ../../wtnbgo/tftSave.git
+	url = ../../wamsoft/tftSave.git
 [submodule "src/plugins/win32/varfile"]
 	path = src/plugins/win32/varfile
-	url = ../../wtnbgo/varfile.git
+	url = ../../wamsoft/varfile.git
 [submodule "src/plugins/win32/win32dialog"]
 	path = src/plugins/win32/win32dialog
-	url = ../../wtnbgo/win32dialog.git
+	url = ../../wamsoft/win32dialog.git
 [submodule "src/plugins/win32/win32ole"]
 	path = src/plugins/win32/win32ole
-	url = ../../wtnbgo/win32ole.git
+	url = ../../wamsoft/win32ole.git
 [submodule "src/plugins/win32/windowEx"]
 	path = src/plugins/win32/windowEx
-	url = ../../wtnbgo/windowEx.git
+	url = ../../wamsoft/windowEx.git
 [submodule "src/plugins/win32/windowExProgress"]
 	path = src/plugins/win32/windowExProgress
-	url = ../../wtnbgo/windowExProgress.git
+	url = ../../wamsoft/windowExProgress.git
 [submodule "src/plugins/win32/tp_stub"]
 	path = src/plugins/win32/tp_stub
-	url = ../../wtnbgo/tp_stub.git
+	url = ../../wamsoft/tp_stub.git
