@@ -24,6 +24,26 @@
         "png",
         "bzip2"
       ]
+    },
+    {
+      "name": "boost",
+      "$comment": "プラグイン用: src/plugins/win32/psdfile"
+    },
+    {
+      "name": "poco",
+      "$comment": "プラグイン用: src/plugins/win32/httpserv"
+    },
+    {
+      "name": "libtomcrypt",
+      "$comment": "プラグイン用: src/plugins/win32/sigcheck"
+    },
+    {
+      "name": "libtommath",
+      "$comment": "プラグイン用: src/plugins/win32/sigcheck"
+    },
+    {
+      "name": "minizip-ng",
+      "$comment": "プラグイン用: src/plugins/win32/minizip"
     }
   ]
 }

@@ -1,24 +1,3 @@
-[submodule "src/plugins/win32/SamplePlugin"]
-	path = src/plugins/win32/SamplePlugin
-	url = ../../krkrz/SamplePlugin.git
-[submodule "src/plugins/win32/opus"]
-	path = src/plugins/win32/opus
-	url = ../../krkrz/wuopus.git
-[submodule "src/plugins/win32/resourceEdit"]
-	path = src/plugins/win32/resourceEdit
-	url = ../../krkrz/resourceEdit.git
-[submodule "src/plugins/win32/theora"]
-	path = src/plugins/win32/theora
-	url = ../../krkrz/krdstheora.git
-[submodule "src/plugins/win32/videoEncoder"]
-	path = src/plugins/win32/videoEncoder
-	url = ../../krkrz/videoEncoder.git
-[submodule "src/plugins/win32/menu"]
-	path = src/plugins/win32/menu
-	url = ../../krkrz/menu.git
-[submodule "src/plugins/win32/wic"]
-	path = src/plugins/win32/wic
-	url = ../../krkrz/wic.git
 [submodule "script/Sample"]
 	path = script/Sample
 	url = ../../krkrz/SampleScript.git
@@ -46,30 +25,9 @@
 [submodule "src/tools/dotNet/tjs2doc"]
 	path = src/tools/dotNet/tjs2doc
 	url = ../../krkrz/tjs2doc.git
-[submodule "src/plugins/win32/sqlite3_xp3_vfs"]
-	path = src/plugins/win32/sqlite3_xp3_vfs
-	url = ../../krkrz/sqlite3_xp3_vfs.git
 [submodule "src/tools/win32/debugger"]
 	path = src/tools/win32/debugger
 	url = ../../krkrz/debugger.git
-[submodule "src/plugins/win32/fftgraph"]
-	path = src/plugins/win32/fftgraph
-	url = ../../krkrz/fftgraph.git
-[submodule "src/plugins/win32/KAGParser"]
-	path = src/plugins/win32/KAGParser
-	url = ../../krkrz/KAGParser.git
-[submodule "src/plugins/win32/qrcode"]
-	path = src/plugins/win32/qrcode
-	url = ../../krkrz/qrcode.git
-[submodule "src/plugins/win32/registory"]
-	path = src/plugins/win32/registory
-	url = ../../krkrz/registory.git
-[submodule "src/plugins/win32/wumsadp"]
-	path = src/plugins/win32/wumsadp
-	url = ../../krkrz/wumsadp.git
-[submodule "src/plugins/win32/wuvorbis"]
-	path = src/plugins/win32/wuvorbis
-	url = ../../krkrz/wuvorbis.git
 [submodule "src/core"]
 	path = src/core
 	url = ../krkrz.git
@@ -199,3 +157,6 @@
 [submodule "src/plugins/win32/tp_stub"]
 	path = src/plugins/win32/tp_stub
 	url = ../../wamsoft/tp_stub.git
+[submodule "src/plugins/win32/menu"]
+	path = src/plugins/win32/menu
+	url = ../../wamsoft/menu.git
