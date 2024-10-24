@@ -11,7 +11,7 @@ set(PROJECT_VERSION 1.01)
 project(${PROJECT_NAME} VERSION ${PROJECT_VERSION})
 
 add_subdirectory(src/core ${CMAKE_CURRENT_BINARY_DIR}/core)
-add_subdirectory(src/plugins/win32 ${CMAKE_CURRENT_BINARY_DIR}/plugins/win32)
+add_subdirectory(src/plugins ${CMAKE_CURRENT_BINARY_DIR}/plugins)
 
 # static 
 set_property(TARGET krkrz PROPERTY
