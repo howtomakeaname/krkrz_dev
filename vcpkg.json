@@ -17,6 +17,7 @@
     "libvpx",
     "libwebm",
     "jxrlib",
+    "miniaudio",
     {
       "name": "freetype",
       "features": [

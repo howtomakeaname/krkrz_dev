@@ -11,6 +11,8 @@
                 "BUILD_DIR": "build/${presetName}"
             },
             "cacheVariables": {
+                "CMAKE_CXX_STANDARD":"17",
+                "CMAKE_CXX_STANDARD_REQUIRED":"ON",
                 "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
             }
         },
