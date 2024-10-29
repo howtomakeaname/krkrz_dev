@@ -14,10 +14,38 @@ CMake 構築用作業中
 
 ## ビルド手順
 
+cmake による構築になります。
+環境別定義は、CMakePresets.json に定義されているので、
+それを利用してビルドできます。
+
+- Ninja の MultiConfig での定義での構築定義になっています
+- preset 毎にビルドフォルダが別れるようになってます
+
+
+ビルド作業用の Makefile が準備されています
+
+
+    環境変数
+    PRESET          cmakeのプリセット名を指定
+    BUILD_TYPE      ビルド対象の config 指定 Debug/RelWithDebInfo/Release
+
+    ビルドルール
+    prebuild        cmake の構築呼び出し
+    build           cmake のビルド呼び出し
+    install         cmake のインストール呼び出し
+
+
+win32版
+
 ```
 make prebuild
 make
+```
 
-# install 用定義が不十分
-make install 
+win64版
+
+```
+export PRESET=x64-windows
+make prebuild
+make
 ```
