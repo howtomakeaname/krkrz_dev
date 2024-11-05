@@ -8,67 +8,85 @@ add_compile_options("$<$<AND:$<CXX_COMPILER_ID:MSVC>,$<COMPILE_LANGUAGE:CXX>>:/Z
 # すべてのプラグインでMT(d)を強制する
 set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 
+if(WIN32 AND (CMAKE_SIZEOF_VOID_P EQUAL 8))
+set(WIN64 1)
+endif()
+
 # 基本プラグイン
 add_subdirectory(tp_stub)
 add_subdirectory(ncbind)
 
-# plugins
-# add_subdirectory(KAGParserEx)
-add_subdirectory(addFont)
-add_subdirectory(binaryStream)
-add_subdirectory(csvParser)
-add_subdirectory(fpslimit)
-add_subdirectory(getSample)
-if (!WIN64)
-add_subdirectory(httprequest)
-add_subdirectory(httpserv)
-endif()
-add_subdirectory(json)
-# add_subdirectory(layerEx)
-add_subdirectory(layerExAreaAverage)
-add_subdirectory(layerExBTOA)
-add_subdirectory(layerExDraw)
-add_subdirectory(layerExImage)
-add_subdirectory(layerExLongExposure)
-add_subdirectory(layerExRaster)
-# add_subdirectory(layerExSave)
-add_subdirectory(lineParser)
-add_subdirectory(memfile)
-if (!WIN64)
-add_subdirectory(messenger)
-endif()
-# add_subdirectory(minizip)
-#add_subdirectory(psdfile)
-add_subdirectory(saveStruct)
-add_subdirectory(scriptsEx)
-if (!WIN64)
-add_subdirectory(shellExecute)
-endif()
-add_subdirectory(shrinkCopy)
-add_subdirectory(sigcheck)
-add_subdirectory(systemEx)
-if (!WIN64)
-add_subdirectory(tftSave)
-endif()
-add_subdirectory(varfile)
+set(PLUGINS
+#KAGParserEx
+addFont
+binaryStream
+csvParser
+fpslimit
+getSample
+json
+layerExAreaAverage
+layerExBTOA
+layerExDraw
+layerExImage
+layerExLongExposure
+layerExRaster
+# layerExSave
+lineParser
+memfile
+#minizip
+#psdfile
+saveStruct
+scriptsEx
+shrinkCopy
+sigcheck
+systemEx
+varfile
+)
+
 
 if (WIN32)
-add_subdirectory(fstat)
-add_subdirectory(menu)
-add_subdirectory(msgreceiver)
-add_subdirectory(stdio)
-# add_subdirectory(resourceRW)
-add_subdirectory(win32dialog)
-add_subdirectory(windowEx)
+list(APPEND PLUGINS
+fstat
+menu
+msgreceiver
+stdio
+# resourceRW
+win32dialog
+windowEx
+)
 if (!WIN64)
-add_subdirectory(process)
-add_subdirectory(win32ole)
-add_subdirectory(windowExProgress)
+list(APPEND PLUGINS 
+httprequest
+httpserv
+process
+win32ole
+windowExProgress
+tftSave
+shellExecute
+messenger
+)
 endif()
 endif()
 
 # 特殊プラグイン
 # STEAMプラグインはSDKパスが環境変数で提供された場合のみビルド
 if(DEFINED ENV{STEAMWORKS_SDK})
-	add_subdirectory(steam)
+list(APPEND PLUGINS 
+	steam
+)
 endif()
+
+if (WIN64)
+set(PLUGIN_DIR "plugins64")
+else()
+set(PLUGIN_DIR "plugins")
+endif()
+
+foreach(PLUGIN ${PLUGINS})
+    add_subdirectory(${PLUGIN})
+    install(TARGETS ${PLUGIN} 
+        LIBRARY DESTINATION ${PLUGIN_DIR}
+        RUNTIME DESTINATION ${PLUGIN_DIR}
+    )
+endforeach()
+

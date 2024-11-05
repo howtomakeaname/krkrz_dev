@@ -12,6 +12,7 @@ VCPKG=$(shell $(FIXPATH) "$(VCPKG_ROOT)/vcpkg")
 
 PRESET?=x64-windows
 BUILD_TYPE?=Release
+INSTALL_PREFIX=bin
 
 ifeq ($(DATAPATH),)
 DATAPATH=data
