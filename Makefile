@@ -10,7 +10,7 @@ endif
 
 VCPKG=$(shell $(FIXPATH) "$(VCPKG_ROOT)/vcpkg")
 
-PRESET?=x86-windows
+PRESET?=x64-windows
 BUILD_TYPE?=Release
 
 ifeq ($(DATAPATH),)
