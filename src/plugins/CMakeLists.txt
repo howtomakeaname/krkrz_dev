@@ -53,16 +53,16 @@ stdio
 # resourceRW
 win32dialog
 windowEx
+httprequest
+shellExecute
 )
 if (!WIN64)
 list(APPEND PLUGINS 
-httprequest
 httpserv
 process
 win32ole
 windowExProgress
 tftSave
-shellExecute
 messenger
 )
 endif()
