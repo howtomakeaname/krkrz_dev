@@ -30,11 +30,11 @@ layerExDraw
 layerExImage
 layerExLongExposure
 layerExRaster
-# layerExSave
+#layerExSave
 lineParser
 memfile
 #minizip
-#psdfile
+psdfile
 saveStruct
 scriptsEx
 shrinkCopy

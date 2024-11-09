@@ -27,6 +27,30 @@
       ]
     },
     {
+      "name": "boost-iostreams",
+      "$comment": "プラグイン用: src/plugins/win32/psdfile"
+    },
+    {
+      "name": "boost-spirit",
+      "$comment": "プラグイン用: src/plugins/win32/psdfile"
+    },
+    {
+      "name": "boost-range",
+      "$comment": "プラグイン用: src/plugins/win32/psdfile"
+    },
+    {
+      "name": "boost-predef",
+      "$comment": "プラグイン用: src/plugins/win32/psdfile"
+    },
+    {
+      "name": "boost-detail",
+      "$comment": "プラグイン用: src/plugins/win32/psdfile"
+    },
+    {
+      "name": "boost-filesystem",
+      "$comment": "プラグイン用: src/plugins/win32/psdfile"
+    },
+    {
       "name": "poco",
       "$comment": "プラグイン用: src/plugins/win32/httpserv"
     },
