@@ -48,11 +48,11 @@ win32dialog
 windowEx
 httprequest
 shellExecute
-#httpserv
-#process
+httpserv
+process
+messenger
+windowExProgress
 #win32ole
-#windowExProgress
-#messenger
 )
 endif()
 
