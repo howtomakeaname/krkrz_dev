@@ -1,10 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
 
-# UTF-8 source
-add_compile_options("$<$<AND:$<C_COMPILER_ID:MSVC>,$<COMPILE_LANGUAGE:C>>:/utf-8>")
-add_compile_options("$<$<AND:$<CXX_COMPILER_ID:MSVC>,$<COMPILE_LANGUAGE:CXX>>:/utf-8>")
-add_compile_options("$<$<AND:$<CXX_COMPILER_ID:MSVC>,$<COMPILE_LANGUAGE:CXX>>:/Zc:__cplusplus>")
-
 set(PROJECT_NAME krkrz_all)
 set(PROJECT_VERSION 1.01)
 
@@ -12,7 +7,3 @@ project(${PROJECT_NAME} VERSION ${PROJECT_VERSION})
 
 add_subdirectory(src/core ${CMAKE_CURRENT_BINARY_DIR}/core)
 add_subdirectory(src/plugins ${CMAKE_CURRENT_BINARY_DIR}/plugins)
-
-# static 
-set_property(TARGET krkrz PROPERTY
-  MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
