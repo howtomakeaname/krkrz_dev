@@ -1,13 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
 
-# UTF-8 source
-add_compile_options("$<$<AND:$<C_COMPILER_ID:MSVC>,$<COMPILE_LANGUAGE:C>>:/utf-8>")
-add_compile_options("$<$<AND:$<CXX_COMPILER_ID:MSVC>,$<COMPILE_LANGUAGE:CXX>>:/utf-8>")
-add_compile_options("$<$<AND:$<CXX_COMPILER_ID:MSVC>,$<COMPILE_LANGUAGE:CXX>>:/Zc:__cplusplus>")
-
-# すべてのプラグインでMT(d)を強制する
-set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
-
 if(WIN32 AND (CMAKE_SIZEOF_VOID_P EQUAL 8))
 set(WIN64 1)
 endif()
