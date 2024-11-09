@@ -30,7 +30,7 @@ layerExDraw
 layerExImage
 layerExLongExposure
 layerExRaster
-#layerExSave
+layerExSave
 lineParser
 memfile
 #minizip
@@ -55,17 +55,13 @@ win32dialog
 windowEx
 httprequest
 shellExecute
+#httpserv
+#process
+#win32ole
+#windowExProgress
+#tftSave
+#messenger
 )
-if (!WIN64)
-list(APPEND PLUGINS 
-httpserv
-process
-win32ole
-windowExProgress
-tftSave
-messenger
-)
-endif()
 endif()
 
 # 特殊プラグイン
