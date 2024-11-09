@@ -41,6 +41,7 @@ shrinkCopy
 sigcheck
 systemEx
 varfile
+tftSave
 )
 
 
@@ -50,7 +51,7 @@ fstat
 menu
 msgreceiver
 stdio
-# resourceRW
+#resourceRW
 win32dialog
 windowEx
 httprequest
@@ -59,7 +60,6 @@ shellExecute
 #process
 #win32ole
 #windowExProgress
-#tftSave
 #messenger
 )
 endif()
