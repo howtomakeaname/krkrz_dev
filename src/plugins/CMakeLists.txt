@@ -24,7 +24,7 @@ layerExLongExposure
 layerExRaster
 layerExSave
 lineParser
-#minizip
+minizip
 saveStruct
 scriptsEx
 shrinkCopy
