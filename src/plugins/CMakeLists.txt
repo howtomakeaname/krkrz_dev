@@ -24,21 +24,24 @@ layerExLongExposure
 layerExRaster
 layerExSave
 lineParser
-memfile
 #minizip
-psdfile
 saveStruct
 scriptsEx
 shrinkCopy
 sigcheck
 systemEx
-varfile
 tftSave
 )
 
 
 if (WIN32)
 list(APPEND PLUGINS
+
+# IStream/GlobalAllocをつかってるので現時点でWIN専用。要改修
+memfile
+psdfile
+varfile
+
 fstat
 menu
 msgreceiver
