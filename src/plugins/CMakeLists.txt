@@ -68,9 +68,9 @@ list(APPEND PLUGINS
 endif()
 
 if (WIN64)
-set(PLUGIN_DIR "plugins64")
+set(PLUGIN_DIR "plugin64")
 else()
-set(PLUGIN_DIR "plugins")
+set(PLUGIN_DIR "plugin")
 endif()
 
 foreach(PLUGIN ${PLUGINS})
