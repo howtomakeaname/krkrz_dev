@@ -1,6 +1,6 @@
 {
   "name": "krkrz",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "dependencies": [
     "egl-registry",
     "opengl-registry",
@@ -14,10 +14,6 @@
     "picojson",
     "libjpeg-turbo",
     "zlib",
-    "libvpx",
-    "libwebm",
-    "jxrlib",
-    "miniaudio",
     {
       "name": "freetype",
       "features": [
@@ -25,30 +21,6 @@
         "png",
         "bzip2"
       ]
-    },
-    {
-      "name": "boost-iostreams",
-      "$comment": "プラグイン用: src/plugins/win32/psdfile"
-    },
-    {
-      "name": "boost-spirit",
-      "$comment": "プラグイン用: src/plugins/win32/psdfile"
-    },
-    {
-      "name": "boost-range",
-      "$comment": "プラグイン用: src/plugins/win32/psdfile"
-    },
-    {
-      "name": "boost-predef",
-      "$comment": "プラグイン用: src/plugins/win32/psdfile"
-    },
-    {
-      "name": "boost-detail",
-      "$comment": "プラグイン用: src/plugins/win32/psdfile"
-    },
-    {
-      "name": "boost-filesystem",
-      "$comment": "プラグイン用: src/plugins/win32/psdfile"
     },
     {
       "name": "poco",
@@ -66,5 +38,14 @@
       "name": "minizip-ng",
       "$comment": "プラグイン用: src/plugins/win32/minizip"
     }
-  ]
+  ],
+  "vcpkg-configuration": {
+    "registries": [
+      {
+        "kind": "artifact",
+        "location": "https://github.com/microsoft/vcpkg-ce-catalog/archive/refs/heads/main.zip",
+        "name": "microsoft"
+      }
+    ]
+  }
 }

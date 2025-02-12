@@ -13,9 +13,6 @@
 [submodule "script/KAG3"]
 	path = script/KAG3
 	url = ../../krkrz/kag3.git
-[submodule "bin"]
-	path = bin
-	url = ../../krkrz/release_binary.git
 [submodule "document/kirikiriz"]
 	path = document/kirikiriz
 	url = ../../krkrz/krkrz-documents.git

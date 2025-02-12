@@ -27,14 +27,13 @@
             },
             "cacheVariables": {
                 "CMAKE_C_COMPILER":"cl",
-                "VCPKG_CHAINLOAD_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/toolchains/windows.cmake",
+                "CMAKE_MSVC_RUNTIME_LIBRARY":"MultiThreaded$<$<CONFIG:Debug>:Debug>",
                 "VCPKG_TARGET_TRIPLET":"x86-windows-static",
                 "VCPKG_TARGET_ARCHITECTURE":"x86",
                 "VCPKG_CRT_LINKAGE":"static",
                 "VCPKG_LIBRARY_LINKAGE":"static",
                 "DEFOLD_TRIPLET":"win32",
-                "USEMINIAUDIO":"ON",
-                "USESTDFILE":"ON"
+                "USEMINIAUDIO":"ON"
             }
         },
         {
@@ -48,14 +47,13 @@
             },
             "cacheVariables": {
                 "CMAKE_C_COMPILER":"cl",
-                "VCPKG_CHAINLOAD_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/toolchains/windows.cmake",
+                "CMAKE_MSVC_RUNTIME_LIBRARY":"MultiThreaded$<$<CONFIG:Debug>:Debug>",
                 "VCPKG_TARGET_TRIPLET":"x64-windows-static",
                 "VCPKG_TARGET_ARCHITECTURE":"x64",
                 "VCPKG_CRT_LINKAGE":"static",
                 "VCPKG_LIBRARY_LINKAGE":"static",
                 "DEFOLD_TRIPLET":"x86_64-win32",
-                "USEMINIAUDIO":"ON",
-                "USESTDFILE":"ON"
+                "USEMINIAUDIO":"ON"
             }
         },
         {
@@ -63,54 +61,21 @@
             "displayName": "for linux x64",
             "description": "linux x64 build",
             "inherits": "default",
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
             "cacheVariables": {
-                "VCPKG_CHAINLOAD_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/toolchains/linux.cmake",
                 "VCPKG_TARGET_TRIPLET":"x64-linux",
                 "VCPKG_TARGET_ARCHITECTURE":"x64",
                 "VCPKG_CRT_LINKAGE":"dynamic",
                 "VCPKG_LIBRARY_LINKAGE":"static",
                 "DEFOLD_TRIPLET":"x86_64-linux",
-                "USEMINIAUDIO":"ON",
-                "USESTDFILE":"ON"
-            }
-        },
-        {
-            "name": "arm64-android",
-            "displayName": "for android arm64",
-            "description": "android arm64 build",
-            "inherits": "default",
-            "cacheVariables": {
-                "CMAKE_SIZEOF_VOID_P_OVERRIDE":"8",
-                "VCPKG_CHAINLOAD_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/toolchains/android.cmake",
-                "VCPKG_TARGET_TRIPLET":"arm64-android",
-                "VCPKG_TARGET_ARCHITECTURE":"arm64",
-                "VCPKG_CRT_LINKAGE":"static",
-                "VCPKG_LIBRARY_LINKAGE":"static",
-                "ANDROID_ABI":"arm64-v8a",
-                "DEFOLD_TRIPLET":"arm64-android",
-                "USEMINIAUDIO":"ON",
-                "USESTDFILE":"ON"
-            }
-        },
-        {
-            "name": "x64-android",
-            "displayName": "for android x64",
-            "description": "android x64 build",
-            "inherits": "default",
-            "cacheVariables": {
-                "CMAKE_SIZEOF_VOID_P_OVERRIDE":"8",
-                "VCPKG_CHAINLOAD_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/toolchains/android.cmake",
-                "VCPKG_TARGET_TRIPLET":"x64-android",
-                "VCPKG_TARGET_ARCHITECTURE":"x64",
-                "VCPKG_CRT_LINKAGE":"static",
-                "VCPKG_LIBRARY_LINKAGE":"static",
-                "ANDROID_ABI":"x86_64",
-                "DEFOLD_TRIPLET":"x86_64-android",
-                "USEMINIAUDIO":"ON",
-                "USESTDFILE":"ON"
+                "USEMINIAUDIO":"ON"
             }
         }
     ],
+
     "buildPresets": [
         {
           "name": "x86-windows",
@@ -123,14 +88,6 @@
         {
             "name": "x64-linux",
             "configurePreset": "x64-linux"
-        },
-        {
-            "name": "arm64-android",
-            "configurePreset": "arm64-android"
-        },
-        {
-            "name": "x64-android",
-            "configurePreset": "x64-android"
         }
     ]
 }

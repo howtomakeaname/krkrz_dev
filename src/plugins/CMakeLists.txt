@@ -28,7 +28,7 @@ minizip
 saveStruct
 scriptsEx
 shrinkCopy
-sigcheck
+#sigcheck
 systemEx
 tftSave
 )
@@ -39,7 +39,7 @@ list(APPEND PLUGINS
 
 # IStream/GlobalAllocをつかってるので現時点でWIN専用。要改修
 memfile
-psdfile
+#psdfile
 varfile
 
 fstat
@@ -63,7 +63,7 @@ endif()
 # STEAMプラグインはSDKパスが環境変数で提供された場合のみビルド
 if(DEFINED ENV{STEAMWORKS_SDK})
 list(APPEND PLUGINS 
-	steam
+#	steam
 )
 endif()
 
