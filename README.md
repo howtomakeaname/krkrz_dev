@@ -54,10 +54,11 @@ cmake --build --preset=x64-windows --config Debug
     install         cmake のインストール呼び出し
 
 
-win32版
+win32版（SJIS対応）
 
 ```
 export PRESET=x86-windows
+export CMAKEOPT="-DUSESJIS=ON"
 make prebuild
 make
 make install
