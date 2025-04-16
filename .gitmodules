@@ -28,135 +28,132 @@
 [submodule "src/core"]
 	path = src/core
 	url = ../krkrz.git
-[submodule "src/plugins/win32/KAGParserEx"]
+[submodule "src/plugins/KAGParserEx"]
 	path = src/plugins/KAGParserEx
 	url = ../../wamsoft/KAGParserEx.git
-[submodule "src/plugins/win32/addFont"]
+[submodule "src/plugins/addFont"]
 	path = src/plugins/addFont
 	url = ../../wamsoft/addFont.git
-[submodule "src/plugins/win32/binaryStream"]
+[submodule "src/plugins/binaryStream"]
 	path = src/plugins/binaryStream
 	url = ../../wamsoft/binaryStream.git
-[submodule "src/plugins/win32/csvParser"]
+[submodule "src/plugins/csvParser"]
 	path = src/plugins/csvParser
 	url = ../../wamsoft/csvParser.git
-[submodule "src/plugins/win32/fpslimit"]
+[submodule "src/plugins/fpslimit"]
 	path = src/plugins/fpslimit
 	url = ../../wamsoft/fpslimit.git
-[submodule "src/plugins/win32/fstat"]
+[submodule "src/plugins/fstat"]
 	path = src/plugins/fstat
 	url = ../../wamsoft/fstat.git
-[submodule "src/plugins/win32/getSample"]
+[submodule "src/plugins/getSample"]
 	path = src/plugins/getSample
 	url = ../../wamsoft/getSample.git
-[submodule "src/plugins/win32/httprequest"]
+[submodule "src/plugins/httprequest"]
 	path = src/plugins/httprequest
 	url = ../../wamsoft/httprequest.git
-[submodule "src/plugins/win32/httpserv"]
+[submodule "src/plugins/httpserv"]
 	path = src/plugins/httpserv
 	url = ../../wamsoft/httpserv.git
-[submodule "src/plugins/win32/json"]
+[submodule "src/plugins/json"]
 	path = src/plugins/json
 	url = ../../wamsoft/json.git
-[submodule "src/plugins/win32/layerEx"]
+[submodule "src/plugins/layerEx"]
 	path = src/plugins/layerEx
 	url = ../../wamsoft/layerEx.git
-[submodule "src/plugins/win32/layerExAreaAverage"]
+[submodule "src/plugins/layerExAreaAverage"]
 	path = src/plugins/layerExAreaAverage
 	url = ../../wamsoft/layerExAreaAverage.git
-[submodule "src/plugins/win32/layerExBTOA"]
+[submodule "src/plugins/layerExBTOA"]
 	path = src/plugins/layerExBTOA
 	url = ../../wamsoft/layerExBTOA.git
-[submodule "src/plugins/win32/layerExDraw"]
+[submodule "src/plugins/layerExDraw"]
 	path = src/plugins/layerExDraw
 	url = ../../wamsoft/layerExDraw.git
-[submodule "src/plugins/win32/layerExImage"]
+[submodule "src/plugins/layerExImage"]
 	path = src/plugins/layerExImage
 	url = ../../wamsoft/layerExImage.git
-[submodule "src/plugins/win32/layerExLongExposure"]
+[submodule "src/plugins/layerExLongExposure"]
 	path = src/plugins/layerExLongExposure
 	url = ../../wamsoft/layerExLongExposure.git
-[submodule "src/plugins/win32/layerExRaster"]
+[submodule "src/plugins/layerExRaster"]
 	path = src/plugins/layerExRaster
 	url = ../../wamsoft/layerExRaster.git
-[submodule "src/plugins/win32/layerExSave"]
+[submodule "src/plugins/layerExSave"]
 	path = src/plugins/layerExSave
 	url = ../../wamsoft/layerExSave.git
-[submodule "src/plugins/win32/lineParser"]
+[submodule "src/plugins/lineParser"]
 	path = src/plugins/lineParser
 	url = ../../wamsoft/lineParser.git
-[submodule "src/plugins/win32/memfile"]
+[submodule "src/plugins/memfile"]
 	path = src/plugins/memfile
 	url = ../../wamsoft/memfile.git
-[submodule "src/plugins/win32/messenger"]
+[submodule "src/plugins/messenger"]
 	path = src/plugins/messenger
 	url = ../../wamsoft/messenger.git
-[submodule "src/plugins/win32/minizip"]
+[submodule "src/plugins/minizip"]
 	path = src/plugins/minizip
 	url = ../../wamsoft/minizip.git
-[submodule "src/plugins/win32/msgreceiver"]
+[submodule "src/plugins/msgreceiver"]
 	path = src/plugins/msgreceiver
 	url = ../../wamsoft/msgreceiver.git
-[submodule "src/plugins/win32/ncbind"]
+[submodule "src/plugins/ncbind"]
 	path = src/plugins/ncbind
 	url = ../../wamsoft/ncbind.git
-[submodule "src/plugins/win32/process"]
+[submodule "src/plugins/process"]
 	path = src/plugins/process
 	url = ../../wamsoft/process.git
-[submodule "src/plugins/win32/psdfile"]
+[submodule "src/plugins/psdfile"]
 	path = src/plugins/psdfile
 	url = ../../wamsoft/psdfile.git
-[submodule "src/plugins/win32/resourceRW"]
+[submodule "src/plugins/resourceRW"]
 	path = src/plugins/resourceRW
 	url = ../../wamsoft/resourceRW.git
-[submodule "src/plugins/win32/saveStruct"]
+[submodule "src/plugins/saveStruct"]
 	path = src/plugins/saveStruct
 	url = ../../wamsoft/saveStruct.git
-[submodule "src/plugins/win32/scriptsEx"]
+[submodule "src/plugins/scriptsEx"]
 	path = src/plugins/scriptsEx
 	url = ../../wamsoft/scriptsEx.git
-[submodule "src/plugins/win32/shellExecute"]
+[submodule "src/plugins/shellExecute"]
 	path = src/plugins/shellExecute
 	url = ../../wamsoft/shellExecute.git
-[submodule "src/plugins/win32/shrinkCopy"]
+[submodule "src/plugins/shrinkCopy"]
 	path = src/plugins/shrinkCopy
 	url = ../../wamsoft/shrinkCopy.git
-[submodule "src/plugins/win32/sigcheck"]
+[submodule "src/plugins/sigcheck"]
 	path = src/plugins/sigcheck
 	url = ../../wamsoft/sigcheck.git
-[submodule "src/plugins/win32/stdio"]
+[submodule "src/plugins/stdio"]
 	path = src/plugins/stdio
 	url = ../../wamsoft/stdio.git
-[submodule "src/plugins/win32/steam"]
+[submodule "src/plugins/steam"]
 	path = src/plugins/steam
 	url = ../../wamsoft/steam.git
-[submodule "src/plugins/win32/systemEx"]
+[submodule "src/plugins/systemEx"]
 	path = src/plugins/systemEx
 	url = ../../wamsoft/systemEx.git
-[submodule "src/plugins/win32/tftSave"]
+[submodule "src/plugins/tftSave"]
 	path = src/plugins/tftSave
 	url = ../../wamsoft/tftSave.git
-[submodule "src/plugins/win32/varfile"]
+[submodule "src/plugins/varfile"]
 	path = src/plugins/varfile
 	url = ../../wamsoft/varfile.git
-[submodule "src/plugins/win32/win32dialog"]
+[submodule "src/plugins/win32dialog"]
 	path = src/plugins/win32dialog
 	url = ../../wamsoft/win32dialog.git
-[submodule "src/plugins/win32/win32ole"]
+[submodule "src/plugins/win32ole"]
 	path = src/plugins/win32ole
 	url = ../../wamsoft/win32ole.git
-[submodule "src/plugins/win32/windowEx"]
+[submodule "src/plugins/windowEx"]
 	path = src/plugins/windowEx
 	url = ../../wamsoft/windowEx.git
-[submodule "src/plugins/win32/windowExProgress"]
+[submodule "src/plugins/windowExProgress"]
 	path = src/plugins/windowExProgress
 	url = ../../wamsoft/windowExProgress.git
-[submodule "src/plugins/win32/tp_stub"]
+[submodule "src/plugins/tp_stub"]
 	path = src/plugins/tp_stub
 	url = ../../wamsoft/tp_stub.git
-[submodule "src/plugins/win32/menu"]
+[submodule "src/plugins/menu"]
 	path = src/plugins/menu
 	url = ../../wamsoft/menu.git
-[submodule "src/plugins/simplebinder"]
-	path = src/plugins/simplebinder
-	url = ../../wamsoft/simplebinder.git
