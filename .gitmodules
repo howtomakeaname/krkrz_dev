@@ -157,3 +157,6 @@
 [submodule "src/plugins/menu"]
 	path = src/plugins/menu
 	url = ../../wamsoft/menu.git
+[submodule "src/plugins/simplebinder"]
+	path = src/plugins/simplebinder
+	url = ../../wamsoft/simplebinder.git
