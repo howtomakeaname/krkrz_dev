@@ -51,7 +51,7 @@ win32dialog
 windowEx
 httprequest
 shellExecute
-httpserv
+#httpserv
 process
 messenger
 windowExProgress
