@@ -23,6 +23,7 @@ jobs:
         make prebuild
         make
         make install
+      shell: cmd
       env:
         PRESET: "x86-windows"
 
@@ -32,6 +33,7 @@ jobs:
         make prebuild
         make
         make install
+      shell: cmd
       env:
         PRESET: "x64-windows"
 
