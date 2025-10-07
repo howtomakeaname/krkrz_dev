@@ -9,7 +9,7 @@ add_subdirectory(tp_stub)
 add_subdirectory(ncbind)
 
 set(PLUGINS
-#KAGParserEx
+KAGParserEx
 addFont
 binaryStream
 csvParser
@@ -51,7 +51,7 @@ win32dialog
 windowEx
 httprequest
 shellExecute
-#httpserv
+httpserv
 process
 messenger
 windowExProgress
