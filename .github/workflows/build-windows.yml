@@ -16,7 +16,7 @@ jobs:
     
     - name: Use Developer Command Prompt for Visual Studio 2022
       shell: cmd 
-      run: "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\VsDevCmd.bat"
+      run: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\Common7\\Tools\\VsDevCmd.bat"
 
     - name: Update Submodules
       run: git submodule update --init --recursive --remote
