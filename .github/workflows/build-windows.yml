@@ -31,33 +31,6 @@ jobs:
       if: ${{ !env.ACT && success() }}
       uses: actions/upload-artifact@v4
       with:
-        name: windows-binaries
-        path: |
-          bin/**
-
-  build-windows-x64:
-    runs-on: windows-2022
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Update Submodules
-      run: git submodule update --init --recursive --remote
-
-    - name: Download NASM
-      run: Invoke-WebRequest -Uri 'https://www.nasm.us/pub/nasm/releasebuilds/2.10.09/win32/nasm-2.10.09-win32.zip' -OutFile './nasm-2.10.09-win32.zip'
-      shell: powershell
-
-    - name: Build (x86)
-      run: ${{ 'tar -xf nasm-2.10.09-win32.zip && set PATH=%PATH%;nasm-2.10.09 && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\VsDevCmd.bat" && make prebuild && make && make install' }}
-      shell: cmd
-      env:
-        PRESET: "x64-windows"
-
-    - name: Upload artifacts
-      if: ${{ !env.ACT && success() }}
-      uses: actions/upload-artifact@v4
-      with:
-        name: windows-binaries
+        name: windows-x86-binaries
         path: |
           bin/**
