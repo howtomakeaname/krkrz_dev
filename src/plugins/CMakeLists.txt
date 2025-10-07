@@ -32,6 +32,7 @@ shrinkCopy
 #sigcheck
 systemEx
 tftSave
+krglhwebp
 )
 
 
