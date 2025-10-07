@@ -30,7 +30,7 @@
 	url = ../krkrz.git
 [submodule "src/plugins/KAGParserEx"]
 	path = src/plugins/KAGParserEx
-	url = https://github.com/wamsoft/KAGParserEx.git
+	url = ../KAGParserEx.git
 [submodule "src/plugins/addFont"]
 	path = src/plugins/addFont
 	url = https://github.com/wamsoft/addFont.git
@@ -160,4 +160,5 @@
 [submodule "src/plugins/simplebinder"]
 	path = src/plugins/simplebinder
 	url = https://github.com/wamsoft/simplebinder.git
+
 
