@@ -28,6 +28,9 @@
 [submodule "src/core"]
 	path = src/core
 	url = ../krkrz.git
+[submodule "src/plugins/KAGParser"]
+	path = src/plugins/KAGParser
+	url = ../KAGParser.git
 [submodule "src/plugins/KAGParserEx"]
 	path = src/plugins/KAGParserEx
 	url = ../KAGParserEx.git
@@ -160,5 +163,3 @@
 [submodule "src/plugins/simplebinder"]
 	path = src/plugins/simplebinder
 	url = https://github.com/wamsoft/simplebinder.git
-
-
