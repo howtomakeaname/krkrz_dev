@@ -17,22 +17,14 @@ jobs:
     - name: Update Submodules
       run: git submodule update --init --recursive --remote
 
-    - name: Build (x86)
-      run: |
-        '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\Common7\\Tools\\VsDevCmd.bat"'
-        make prebuild
-        make
-        make install
+    - name: Build (windows-x86)
+      run: ${{ '"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\VsDevCmd.bat" && make prebuild && make && make install' }}
       shell: cmd
       env:
         PRESET: "x86-windows"
 
-    - name: Build (x64)
-      run: |
-        '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\Common7\\Tools\\VsDevCmd.bat"'
-        make prebuild
-        make
-        make install
+    - name: Build (windows-x64)
+      run: ${{ '"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\VsDevCmd.bat" && make prebuild && make && make install' }}
       shell: cmd
       env:
         PRESET: "x64-windows"
