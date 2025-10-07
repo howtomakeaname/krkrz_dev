@@ -163,3 +163,6 @@
 [submodule "src/plugins/simplebinder"]
 	path = src/plugins/simplebinder
 	url = https://github.com/wamsoft/simplebinder.git
+[submodule "src/plugins/krglhwebp"]
+	path = src/plugins/krglhwebp
+	url = ../krglhwebp.git
