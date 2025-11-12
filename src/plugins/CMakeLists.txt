@@ -9,8 +9,6 @@ add_subdirectory(tp_stub)
 add_subdirectory(ncbind)
 
 set(PLUGINS
-KAGParser
-#KAGParserEx
 addFont
 binaryStream
 csvParser
@@ -33,6 +31,8 @@ shrinkCopy
 systemEx
 tftSave
 krglhwebp
+KAGParser
+#KAGParserEx
 )
 
 
